@@ -678,7 +678,7 @@
 			(uuid "d6083c6a-5a0f-447f-abac-1943af728bcd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints/cad_models/S2B-PH-SM4-TB.STEP"
+		(model "/home/luc/dev/kicad/siiren/footprints/cad_models/S2B-PH-SM4-TB.STEP"
 			(offset
 				(xyz 0 -4.5 0)
 			)
@@ -4723,7 +4723,7 @@
 			(uuid "662091a9-6414-45cb-aac6-1b3eb3669da1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints/cad_models/btn.step"
+		(model "/home/luc/dev/kicad/siiren/footprints/cad_models/btn.step"
 			(offset
 				(xyz 0 0 1)
 			)
