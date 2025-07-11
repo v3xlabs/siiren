@@ -1,5 +1,5 @@
-SCHEM=schematics/siiren.kicad_sch
-BOARD=schematics/siiren.kicad_pcb
+SCHEM=siiren.kicad_sch
+BOARD=siiren.kicad_pcb
 OUT=docs
 
 build:

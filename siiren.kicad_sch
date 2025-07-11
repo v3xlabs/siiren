@@ -230,7 +230,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "display.kicad_sch"
+		(property "Sheetfile" "schematics/display.kicad_sch"
 			(at 182.88 112.3446 0)
 			(effects
 				(font
@@ -272,7 +272,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.kicad_sch"
+		(property "Sheetfile" "schematics/mcu.kicad_sch"
 			(at 135.89 119.9646 0)
 			(effects
 				(font
@@ -394,7 +394,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "buttons.kicad_sch"
+		(property "Sheetfile" "schematics/buttons.kicad_sch"
 			(at 78.74 145.3646 0)
 			(effects
 				(font
@@ -486,7 +486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
+		(property "Sheetfile" "schematics/power.kicad_sch"
 			(at 78.74 81.8646 0)
 			(effects
 				(font
@@ -538,7 +538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb.kicad_sch"
+		(property "Sheetfile" "schematics/usb.kicad_sch"
 			(at 78.74 112.3446 0)
 			(effects
 				(font
