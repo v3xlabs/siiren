@@ -8,6 +8,8 @@ An open-hardware digital notifier with ePaper display, esp32-s3, and removable b
 ## Technical Specs
 
 - **Processor**: esp32-s3
+- **Inputs**
+  - 5-btn slim d-pad
 - **Outputs**:
   - ePaper display (specifics undecided)
 - **Connectivity**:
