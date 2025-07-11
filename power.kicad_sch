@@ -1642,6 +1642,17 @@
 		)
 		(uuid "0936931c-6802-4bd9-8bc5-7aa2ec274b77")
 	)
+	(text "sidenote: we might need to swap\nVIN1 & VIN2 between +BATT & VBUS due to 4.7v vs 5v"
+		(exclude_from_sim no)
+		(at 159.766 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "208a3bd9-5a87-41d3-bc03-7993a3173f43")
+	)
 	(text "On when USB Powered\n"
 		(exclude_from_sim no)
 		(at 65.786 160.02 0)
@@ -1819,6 +1830,12 @@
 		(uuid "cc290aa6-0cfd-4365-8fd3-ae6464c51f67")
 	)
 	(junction
+		(at 233.68 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e399b4bd-813a-4f09-90a0-49f874369eb8")
+	)
+	(junction
 		(at 83.82 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1907,6 +1924,16 @@
 			(type default)
 		)
 		(uuid "3665755b-48ee-4866-9821-ec4782597c5f")
+	)
+	(wire
+		(pts
+			(xy 233.68 41.91) (xy 233.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39462c9e-8e6f-4839-b9d7-ecb06d636de2")
 	)
 	(wire
 		(pts
@@ -2007,6 +2034,16 @@
 			(type default)
 		)
 		(uuid "8051da6b-fe5f-4135-8088-36db41ba9317")
+	)
+	(wire
+		(pts
+			(xy 233.68 31.75) (xy 233.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d06ed65-dde6-483a-ad7a-c6c74733214d")
 	)
 	(wire
 		(pts
@@ -2672,6 +2709,72 @@
 			(project "siiren"
 				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/8a3d119c-67dd-4f4a-8377-40fc3a7c71aa"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 233.68 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b1b6957-70d2-4407-bf61-c5cc0653305e")
+		(property "Reference" "#PWR036"
+			(at 233.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1e736f7-60f3-49ce-b4be-97dd283849b5")
+		)
+		(instances
+			(project "siiren"
+				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/8a3d119c-67dd-4f4a-8377-40fc3a7c71aa"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3806,7 +3909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 133.35 0)
+		(at 144.78 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,7 +3918,7 @@
 		(fields_autoplaced yes)
 		(uuid "91aeba63-08fe-4c01-a32b-d8afcc52e4dd")
 		(property "Reference" "#PWR035"
-			(at 139.7 139.7 0)
+			(at 144.78 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 138.43 0)
+			(at 144.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 133.35 0)
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 133.35 0)
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 133.35 0)
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,6 +4034,76 @@
 			(project "siiren"
 				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/8a3d119c-67dd-4f4a-8377-40fc3a7c71aa"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4267c80-bdbc-4750-9203-b4edc81a7777")
+		(property "Reference" "R18"
+			(at 236.22 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "k"
+			(at 236.22 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.458 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b75dc8-0fa9-4b44-ad45-3b1414fa7be9")
+		)
+		(pin "2"
+			(uuid "882544e0-8062-4e89-ba75-ed63b6256ea3")
+		)
+		(instances
+			(project "siiren"
+				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/8a3d119c-67dd-4f4a-8377-40fc3a7c71aa"
+					(reference "R18")
 					(unit 1)
 				)
 			)
