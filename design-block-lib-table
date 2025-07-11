@@ -1,0 +1,4 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "00_CAD_Models")(type "KiCad")(uri "${KIPRJMOD}/footprints/cad_models")(options "")(descr ""))
+)

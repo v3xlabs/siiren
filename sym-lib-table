@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "00_Luc")(type "KiCad")(uri "${KIPRJMOD}/footprints/00_Luc.kicad_sym")(options "")(descr ""))
+  (lib (name "00_LM66200DRLR")(type "KiCad")(uri "${KIPRJMOD}/footprints/00_LM66200DRLR.kicad_sym")(options "")(descr ""))
+)
